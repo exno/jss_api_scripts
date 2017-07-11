@@ -10,9 +10,9 @@ function getGroupMembers() {
 }
 
 ## Variables ####################################################
-jss="$(osascript -e 'Tell application "System Events" to display dialog "Enter JSS URL: " default answer ""' -e 'text returned of result' 2>/dev/null)"
-apiuser="$(osascript -e 'Tell application "System Events" to display dialog "Enter API Username: " default answer ""' -e 'text returned of result' 2>/dev/null)"
-apipass="$(osascript -e 'Tell application "System Events" to display dialog "Enter API Password: " with hidden answer default answer ""' -e 'text returned of result' 2>/dev/null)"
+jss="https://jss.mycompany.com:8443"
+apiuser=""
+apipass=""
 groupName="$(osascript -e 'Tell application "System Events" to display dialog "Enter Group Name: " default answer ""' -e 'text returned of result' 2>/dev/null)"
 
 ## Work Area ####################################################
